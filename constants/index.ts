@@ -6,4 +6,11 @@ export const footerLinks = [
             { title: "Facebook", url: "https://www.facebook.com/profile.php?id=100009454294026"},
         ]
     },
+    {
+        title: "Contact Me",
+        links: [
+            { title: "Mail", url: "https://www.instagram.com/liborhroza/"},
+            { title: "Phone", url: "https://www.facebook.com/profile.php?id=100009454294026"},
+        ]
+    },
 ];
