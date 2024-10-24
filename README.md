@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Libor Hroza Coaching Website - README
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This project is a web-based platform for Libor Hroza, the head coach of Team Canada in speed climbing, designed to showcase his coaching services and provide a tailored training experience for athletes. Built using **TypeScript** and **Node.js**, the website will serve both as a portfolio for Libor's coaching career and a tool to help climbers create custom training plans based on their specific inputs and goals.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Current Status
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Progress is underway, with some sections awaiting additional content and input from Libor Hroza. The core feature of the website—the training plan generator—will be built using a template system that adapts based on the athlete’s needs and preferences. As of now, the primary structure and backend development have begun, and features are being scoped.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Expected Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. **Portfolio Section**  
+   - Information about Libor Hroza's background, achievements, and coaching philosophy.
+   - Testimonials and success stories from athletes he has trained.
+   - A media gallery showcasing photos and videos from competitions, training sessions, and coaching.
 
-## Learn More
+2. **Training Plan Generator**  
+   - A dynamic form where users (athletes) input their personal data (e.g., skill level, goals, timeline).
+   - Template-based training plans that adapt based on user inputs, covering areas such as speed climbing techniques, physical conditioning, and mental preparation.
+   - Export and download functionality for personalized training plans.
+   - Option to book follow-up sessions or consultations with Libor.
 
-To learn more about Next.js, take a look at the following resources:
+3. **Contact and Booking**  
+   - A contact form for inquiries regarding coaching services.
+   - Calendar integration to book training sessions with Libor.
+   - A section for requesting custom training plans or 1-on-1 coaching.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4. **Blog or News Updates**  
+   - A blog section where Libor can share climbing tips, training advice, or updates about his athletes' achievements and the climbing world.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technology Stack
 
-## Deploy on Vercel
+- **Frontend**:  
+  - TypeScript
+  - **Tailwind CSS** for responsive and customizable styling
+  - HTML/CSS for responsive and user-friendly design
+  - Template engine (to be decided) for the training plan forms
+  - Potential integration with third-party APIs for additional functionality (e.g., Google Calendar for bookings)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Backend**:  
+  - Node.js
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Setup Instructions
+
+### Prerequisites
+1. Node.js (v16+)
+2. TypeScript (v4.0+)
+3. MongoDB or any other database of your choice (if applicable)
+
+
+
+### Running the Project
+1. Start the development server:
+   ```bash
+   npm run dev
+   ```
+2. Open your browser and visit `http://localhost:3000` to view the website.
+
+## Contribution Guidelines
+
+Contributions are welcome as we continue to build out this project. For suggestions or feature requests, please open an issue or submit a pull request.
+
+## Future Plans
+
+- Integration of athlete feedback to improve the training plan generator.
+- SEO optimization for the portfolio and coaching sections.
+- Expand the functionality of the booking system, possibly with payment integration for online coaching services.
+
