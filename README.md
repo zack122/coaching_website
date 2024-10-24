@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is a web-based platform for Libor Hroza, the head coach of Team Canada in speed climbing, designed to showcase his coaching services and provide a tailored training experience for athletes. Built using **TypeScript** and **Node.js**, the website will serve both as a portfolio for Libor's coaching career and a tool to help climbers create custom training plans based on their specific inputs and goals.
+This project is a web-based platform for Libor Hroza, the head coach of Team Canada for climbing, designed to showcase his coaching services and provide a tailored training experience for athletes. Built using **TypeScript** and **Node.js**, the website will serve both as a portfolio for Libor's coaching career and a tool to help climbers create custom training plans based on their specific inputs and goals.
 
 ## Current Status
 
